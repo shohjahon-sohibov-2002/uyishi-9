@@ -1,0 +1,211 @@
+@font-face {
+  font-family: 'Rubik';
+  src: url('../fonts/Rubik-Light.woff2') format('woff2'),
+  url('../fonts/Rubik-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('../fonts/Rubik-Black.woff2') format('woff2'),
+  url('../fonts/Rubik-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('../fonts/Rubik-Bold.woff2') format('woff2'),
+  url('../fonts/Rubik-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url("../fonts/Rubik-Medium.woff2") format('woff2'),
+  url('../fonts/Rubik-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('Rubik-Regular.woff2') format('woff2'),
+  url('Rubik-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('../fonts/Rubik-SemiBold.woff2') format('woff2'),
+  url('../fonts/Rubik-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  line-height: 1.2;
+}
+
+.container {
+  max-width: 1300px;
+  margin: auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+.main-section {
+  background-color: #F6F6F9;
+}
+
+.header {
+  padding-top: 35px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.info-left {
+  margin-left: -90px;
+  align-items: center;
+  display: flex;
+}
+
+.info-left .values {
+  padding-left: 20px;
+}
+
+.info-right {
+  display: flex;
+}
+
+.magnifier {
+  background-color: white;
+  margin-right: 10px;
+  width: 38px;
+  height: 40px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flag-ru {
+  margin-right: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 64px;
+  height: 40px;
+}
+
+.flag-ru img {
+  margin-right: 3px;
+}
+
+.info-right .btn {
+  background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+  border-radius: 5px;
+  width: 146px;
+  height: 40px;
+  text-align: center;
+  padding-bottom: -10px;
+  margin-right: -90px;
+}
+
+.info-right .btn a:hover {
+  color: black;
+}
+
+.info-right .btn a:active {
+  color: blue;
+}
+
+.info-right .btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.info-right .btn span {
+  padding-top: -15px;
+} 
+
+.info-right .btn img {
+  margin-top: 4px;
+  margin-right: 5px;
+}
+
+
+.navbar {
+  text-align: center;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 60px;
+  width: 1200px;
+  height: 68px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  width: 1151px;
+  height: 25px;
+}
+
+.navbar li {
+  padding-top: 21px;
+  padding-left: 24px;
+  list-style-type: none;
+}
+
+.navbar li a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 23px;
+  color: #515151;
+}
+
+.navbar a:hover {
+  color: rgb(156, 154, 154);
+  transition: .5s;
+}
+
+.navbar a:active {
+  color: blue;
+}
+
+.banner  {
+  padding-top: 10px;
+  padding-bottom: 120px;
+  width: 1200px;
+  height: 99px;
+  margin-left: 73px;
+}
+
